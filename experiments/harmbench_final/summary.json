@@ -1,0 +1,12 @@
+{
+  "dataset": "HarmBench (Final Fix)",
+  "total_behaviors": 320,
+  "baseline_asr": 200,
+  "baseline_asr_pct": 62.5,
+  "attack_asr": 214,
+  "attack_asr_pct": 66.875,
+  "improvement": 4.375,
+  "average_edits": 0.459375,
+  "steps": 32,
+  "fix": "proper_token_extraction"
+}

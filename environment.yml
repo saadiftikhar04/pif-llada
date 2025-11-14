@@ -1,0 +1,25 @@
+name: pif-llada
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch::pytorch>=2.0.0
+  - pytorch::torchvision
+  - pytorch::torchaudio
+  - pytorch::pytorch-cuda=11.8
+  - pip
+  - pip:
+    - transformers>=4.35.0
+    - datasets>=2.14.0
+    - accelerate>=0.24.0
+    - sentencepiece>=0.1.99
+    - protobuf>=3.20.0
+    - nltk>=3.8.0
+    - pandas>=2.0.0
+    - tqdm>=4.66.0
+    - matplotlib>=3.7.0
+    - seaborn>=0.12.0
+    - scikit-learn>=1.3.0

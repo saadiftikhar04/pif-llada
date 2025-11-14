@@ -1,0 +1,13 @@
+{
+  "dataset": "HarmBench Text Test Set",
+  "total_behaviors": 320,
+  "baseline_asr": 210,
+  "baseline_asr_pct": 65.625,
+  "attack_asr": 210,
+  "attack_asr_pct": 65.625,
+  "improvement": 0.0,
+  "average_edits": 0.0,
+  "model": "/scratch/si2356/models/llada-1.5-8b",
+  "diffusion_steps": 4,
+  "max_edits": 20
+}

@@ -1,0 +1,11 @@
+{
+  "dataset": "HarmBench (Corrected)",
+  "total_behaviors": 320,
+  "baseline_asr": 201,
+  "baseline_asr_pct": 62.81250000000001,
+  "attack_asr": 224,
+  "attack_asr_pct": 70.0,
+  "improvement": 7.187499999999993,
+  "average_edits": 0.409375,
+  "optimization": "maximize_compliance"
+}

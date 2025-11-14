@@ -1,0 +1,12 @@
+{
+  "dataset": "HarmBench (Enhanced)",
+  "total_behaviors": 320,
+  "baseline_asr": 192,
+  "baseline_asr_pct": 60.0,
+  "attack_asr": 246,
+  "attack_asr_pct": 76.875,
+  "improvement": 16.875,
+  "average_edits": 6.503125,
+  "max_edits": 30,
+  "strategy": "multi_jailbreak_enhanced"
+}
