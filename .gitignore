@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.ipynb_checkpoints/
+*.swp
+*.swo
+*~
+.DS_Store
+experiments/*/
+logs/
+data/*.jsonl
+data/*.json
+models/
