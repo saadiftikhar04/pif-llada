@@ -35,7 +35,7 @@ class PiFConfig:
     
     # Sampling parameters
     top_n_replaced: int = 5        # N=5
-    top_m_replacements: int = 20   # M=5 in paper, increased to 20 to avoid empty lists in practice
+    top_m_replacements: int = 20   # M=20
     top_k_comparison: int = 10     # K=10
     
     device: str = "cuda" if torch.cuda.is_available() else "cpu"
