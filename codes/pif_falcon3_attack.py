@@ -1,20 +1,4 @@
 #!/usr/bin/env python
-"""
-PiF (Perceived-importance Flatten) Attack - OFFICIAL LOGIC & FULL IMPLEMENTATION
-Based on Algorithm 1 from ICLR 2025 paper
-
-Logic Parity with Official Implementation (Algorithm B):
-- Model: AutoModelForCausalLM (Masked via hack)
-- Metric: Softmax Probability L2 Distance
-- Selection: Probabilistic Sampling (Multinomial)
-- Constraints: 
-    1. Tokenizer Specific Filters (Generalized for Falcon/BPE)
-    2. Candidate must NOT exist in original input (Strict Algorithm B logic)
-- Consistency: Internal Hidden State Cosine Similarity
-- Objective: ASR (Attack Success Rate) -> Runs until Success
-- Evaluation: Official prefix checking with 30-word truncation
-"""
-
 import torch
 import numpy as np
 import torch.nn.functional as F
