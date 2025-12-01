@@ -1,25 +1,29 @@
 name: pif-llada
 channels:
   - pytorch
-  - nvidia
   - conda-forge
   - defaults
 dependencies:
+  # Python
   - python=3.10
+  
+  # PyTorch with CUDA support
   - pytorch::pytorch>=2.0.0
-  - pytorch::torchvision
-  - pytorch::torchaudio
   - pytorch::pytorch-cuda=11.8
+  
+  # Pip packages
   - pip
   - pip:
+    # Core ML libraries
     - transformers>=4.35.0
-    - datasets>=2.14.0
     - accelerate>=0.24.0
-    - sentencepiece>=0.1.99
-    - protobuf>=3.20.0
-    - nltk>=3.8.0
+    
+    # Sentence embeddings (for PiF semantic similarity)
+    - sentence-transformers>=2.2.0
+    
+    # Data processing
     - pandas>=2.0.0
+    - numpy>=1.24.0
+    
+    # Progress bars
     - tqdm>=4.66.0
-    - matplotlib>=3.7.0
-    - seaborn>=0.12.0
-    - scikit-learn>=1.3.0
