@@ -1,19 +1,19 @@
 # Core ML/DL frameworks
-torch>=2.0.0
-transformers>=4.35.0
+torch
+transformers
 
 # Data processing
-pandas>=2.0.0
-numpy>=1.24.0
+pandas
+numpy
 
 # Utilities
-tqdm>=4.66.0
+tqdm
 
 # For PiF attack - sentence similarity
-sentence-transformers>=2.2.0
+sentence-transformers
 
 # Optional: For better performance with transformers
-accelerate>=0.24.0
+accelerate
 
 # Using GPU, install PyTorch with CUDA support:
-pip install torch --index-url https://download.pytorch.org/whl/cu118
+# pip install torch --index-url https://download.pytorch.org/whl/cu118
