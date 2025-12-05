@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-Step 3.1: PiF-LLaDA Implementation (Fixed)
+Step 3.1: PiF-LLaDA Implementation
 
 KEY CHANGES from feedback:
 1. Use LLaDA's OWN tokenizer and model for importance (like Step 2 Falcon3)
